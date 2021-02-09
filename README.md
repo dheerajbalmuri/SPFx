@@ -1,2 +1,2 @@
 # SPFx
-Created for Sample projects i will be creating SPFx
+Created for Sample projects that i will be creating using SPFx
