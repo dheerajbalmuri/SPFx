@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-invoice-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactInvoiceForm/ReactInvoiceFormWebPart.js",
+          "manifest": "./src/webparts/reactInvoiceForm/ReactInvoiceFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactInvoiceFormWebPartStrings": "lib/webparts/reactInvoiceForm/loc/{locale}.js"
+  }
+}
