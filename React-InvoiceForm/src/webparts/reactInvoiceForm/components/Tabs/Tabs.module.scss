@@ -1,0 +1,101 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.input {
+    display: block;
+    box-sizing: border-box;
+    height: 100px;
+    width: 60%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .inputDescription{
+    display: inline;
+    box-sizing: border-box;
+    height: 40px;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .inputAmount{
+    display: inline;
+    box-sizing: border-box;
+    height: 40px;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+
+.form{
+  background-color: rgba(226,243,254, 1);
+}
+
+.Person{
+  color: rgba(255, 204, 0, 1);
+}
+
+.amountDiv{
+  position: absolute;
+  left: 350px;
+  top: 440px;
+  display: block;
+}
+
+.invoiceNumber{
+  display: inline;
+    box-sizing: border-box;
+    height: 40px;
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.invoiceNumberDiv{
+  position: absolute;
+  left: 550px;
+  top: 250px;
+  display: block;
+}
+
+.invoiceDateDiv{
+  position: absolute;
+  left: 550px;
+  top: 350px;
+  display: block;
+}
+
+.addATaxButton{
+  display: inline-block;
+  background-color: #ffffc4;
+  color: black !important;
+  padding: 6px 12px;
+  position: absolute;
+  left: 450px;
+  top: 460px;
+  display: block;
+  box-shadow: 2px 3px 0px rgb(4, 4, 4/30);
+  border-color: #ccc;
+  width: 20%;
+}
+
+.signatureDiv{
+  border: 1px solid black;
+  position: absolute;
+  left: 500px;
+  top: 550px;
+  display: block;
+}
